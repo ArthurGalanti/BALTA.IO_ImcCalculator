@@ -11,20 +11,20 @@ jobs:
 
     steps:
     - uses: actions/checkout@main
-    
+
     - name: Set up .NET Core
       uses: actions/setup-dotnet@v2
       with:
         dotnet-version: '7.0.x'
-
+    
     - name: Build with dotnet
       run: dotnet build --configuration Release
 
     - name: Test
       run: dotnet test
-
-    -name: Create the Package
+    
+    - name: Create the Package
       run: dotnet pack --configuration Release
 
-    -name: Publish
-      run: dotnet nuget push "ImcCalculator\bin\Release\*.nupkg" -k ${{secrets.NUGET_TOKEN}} -s https://api.nuget.org/v3/index.json
+    - name: Publish
+      run: dotnet nuget push "MoneyExtension/bin/Release/*.nupkg" -k ${{ secrets.NUGET_TOKEN }} -s https://api.nuget.org/v3/index.json
