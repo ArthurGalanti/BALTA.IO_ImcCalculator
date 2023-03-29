@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <PackageId>MoneyExtensions</PackageId>
+    <Version>1.0.0</Version>
+    <icon></icon>
+    <License>MIT</License>
+    <Authors>Arthur Galanti</Authors>
+    <Company>galanti.dev</Company>
+    <PackageDescription>Use to calcule IMC</PackageDescription>
+
+  </PropertyGroup>
+
+</Project>

@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MoneyExtension\MoneyExtension.csproj" />
+    <ProjectReference Include="..\ImcCalculator\ImcCalculator.csproj" />
   </ItemGroup>
 
 </Project>

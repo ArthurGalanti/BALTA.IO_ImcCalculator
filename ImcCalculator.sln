@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyExtension", "MoneyExtension\MoneyExtension.csproj", "{FEC62166-804A-4784-B046-DE1FFE7FB518}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImcCalculator", "ImcCalculator\ImcCalculator.csproj", "{FEC62166-804A-4784-B046-DE1FFE7FB518}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyExtension.Tests", "MoneyExtension.Tests\MoneyExtension.Tests.csproj", "{F92D0493-0E8C-443B-BCC6-2AC4798A31E5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImcCalculator.Tests", "ImcCalculator.Tests\ImcCalculator.Tests.csproj", "{F92D0493-0E8C-443B-BCC6-2AC4798A31E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
