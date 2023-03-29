@@ -1,4 +1,6 @@
-﻿namespace ImcCalculator;
+﻿using System;
+
+namespace ImcCalculator;
 
 public static class Calculator
 {
@@ -6,7 +8,6 @@ public static class Calculator
     {
         var imc = Math.Round(weigh / Math.Pow(height, 2), 2);
         
-
         return imc switch
         {
             < 18.5 => (imc, "Abaixo do peso normal") ,

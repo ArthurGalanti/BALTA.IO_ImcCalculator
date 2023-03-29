@@ -10,5 +10,4 @@ public class MoneyExtensionTests
         var imcWaited = (20.37, "Peso normal");
         Assert.AreEqual(imcWaited,imc);
     }
-
 }
